@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulado 2</title>
+  <link rel="stylesheet" href="Simuladoscss.css">
+  <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <div class="locBtnVoltar">
+    <a class="botao" onclick="voltar()">Voltar</a>
+    </div>
+    <div class="titulo">
+  <h1 id="titulo" data-mobile-text="Computadores e Dispositivos">Introdução ao Uso de Computadores e Dispositivos Móveis</h1>
+    </div>
+    <div class="esquerda"></div> <!-- vazia -->
+</header>
+<main>  
+  <form id="simulado2" class="quizForm">
+   <div class="question">
+      <h3>1. Qual dos itens abaixo faz parte do hardware de um computador?</h3>
+      <label><input type="radio" name="q1" value="a"> a) Word</label>
+      <label><input type="radio" name="q1" value="b"> b) Google Chrome</label>
+      <label><input type="radio" name="q1" value="c"> c) Mouse</label>
+      <label><input type="radio" name="q1" value="d"> d) Android</label>
+    </div>
+
+    <div class="question">
+      <h3>2. O que é o sistema operacional de um computador?</h3>
+      <label><input type="radio" name="q2" value="a"> a) O programa que faz o computador funcionar</label>
+      <label><input type="radio" name="q2" value="b"> b) A parte física da máquina</label>
+      <label><input type="radio" name="q2" value="c"> c) Um antivírus pago</label>
+      <label><input type="radio" name="q2" value="d"> d) Um tipo de vírus</label>
+    </div>
+
+    <div class="question">
+      <h3>3. Qual é a principal diferença entre um computador e um smartphone?</h3>
+      <label><input type="radio" name="q3" value="a"> a) Computadores não precisam de energia elétrica</label>
+      <label><input type="radio" name="q3"value="b"> b) Smartphones são portáteis e com tela sensível ao toque</label>
+      <label><input type="radio" name="q3" value="c"> c) Computadores têm câmera traseira</label>
+      <label><input type="radio" name="q3" value="d"> d) Smartphones não acessam a internet</label>
+    </div>
+
+    <div class="question">
+      <h3>4. Qual é o nome do programa usado para proteger o computador contra vírus?</h3>
+      <label><input type="radio" name="q4" value="a"> a) Calculadora</label>
+      <label><input type="radio" name="q4" value="b"> b) Word</label>
+      <label><input type="radio" name="q4" value="c"> c) Backup</label>
+      <label><input type="radio" name="q4" value="d"> d) Antivírus</label>
+    </div>
+
+    <div class="question">
+      <h3>5. O que significa "backup"?</h3>
+      <label><input type="radio" name="q5" value="a"> a) Excluir arquivos desnecessários</label>
+      <label><input type="radio" name="q5" value="b"> b) Atualizar o sistema operacional</label>
+      <label><input type="radio" name="q5" value="c"> c) Fazer uma cópia de segurança dos dados</label>
+      <label><input type="radio" name="q5" value="d"> d) Apagar vírus do computador</label>
+    </div>
+
+    <div class="question">
+      <h3>6. Para que serve um navegador de internet (como Google Chrome)?</h3>
+      <label><input type="radio" name="q6" value="a"> a) Para desenhar</label>
+      <label><input type="radio" name="q6" value="b"> b) Para acessar sites e fazer pesquisas</label>
+      <label><input type="radio" name="q6" value="c"> c) Para editar vídeos</label>
+      <label><input type="radio" name="q6" value="d"> d) Para proteger contra vírus</label>
+    </div>
+
+    <div class="question">
+      <h3>7. Qual das opções abaixo é uma função comum dos dispositivos móveis?</h3>
+      <label><input type="radio" name="q7" value="a"> a) Assistir vídeos, enviar mensagens e usar redes sociais</label>
+      <label><input type="radio" name="q7" value="b"> b) Trocar a memória RAM</label>
+      <label><input type="radio" name="q7" value="c"> c) Instalar impressoras</label>
+      <label><input type="radio" name="q7" value="d"> d) Conectar disquetes</label>
+    </div>
+
+    <div class="question">
+      <h3>8. O que é o Android?</h3>
+      <label><input type="radio" name="q8" value="a"> a) Um modelo de mouse</label>
+      <label><input type="radio" name="q8" value="b"> b) Um programa de editar vídeos</label>
+      <label><input type="radio" name="q8" value="c"> c) Um sistema operacional de celulares</label>
+      <label><input type="radio" name="q8" value="d"> d) Um tipo de vírus</label>
+    </div>
+
+    <div class="question">
+      <h3>9. O que é necessário para acessar a internet em um celular ou computador?</h3>
+      <label><input type="radio" name="q9" value="a"> a) Conectar um CD</label>
+      <label><input type="radio" name="q9" value="b"> b) Estar com a bateria fraca</label>
+      <label><input type="radio" name="q9" value="c"> c) Estar conectado ao Wi-Fi ou dados móveis</label>
+      <label><input type="radio" name="q9" value="d"> d) Usar apenas antivírus</label>
+    </div>
+
+    <div class="question">
+      <h3>10. Qual atitude ajuda a manter seus dados seguros no computador ou celular?</h3>
+      <label><input type="radio" name="q10" value="a"> a) Compartilhar a senha com amigos</label>
+      <label><input type="radio" name="q10" value="b"> b) Desligar o antivírus para não atrapalhar</label>
+      <label><input type="radio" name="q10" value="c"> c) Clicar em todos os links recebidos</label>
+      <label><input type="radio" name="q10" value="d"> d) Manter o antivírus ativo e fazer backups</label>
+    </div>
+
+    <button type="button" class="corrigir" onclick="corrigir('simulado2')">Ver Resultado</button>
+  </form>
+  <section class="result">
+    <div id="resultado"></div>
+    <button id="fazerDenovo" onclick="window.location.reload()">Fazer novamente?</button>
+    <button id="sair" onclick="window.location.href='index.html#Simulados'">Sair</button>
+  </section>
+  </main>
+
+<script src="Simulados.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cursos.css">
+    <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
+    <title>Projeto de Alfabetização Digital</title>
+</head>
+
+<body>
+    <header>
+        <div class="locBtnVoltar">
+            <a class="botao" onclick="voltar()">Voltar</a>
+        </div>
+        <div class="titulo">
+            <h1>Fundamentos da Navegação na Internet</h1>
+        </div>
+        <div class="esquerda"></div> <!-- vazia -->
+    </header>
+    <main>
+        <section id="sumario">
+            <h2>Sumário</h2>
+            <ol>
+                <li>Por que a segurança na internet é importante?</li>
+                <li>Principais Riscos Online</li>
+                <li>Boas Práticas de Segurança na Navegação</li>
+                <li>Navegando com Segurança em Wi-fi público</li>
+                <li>Identificando Sites e mensagens suspeitas</li>
+                <li>Ferramentas que ajudam na Segurança</li>
+                <li>O que é o Modo de Navegação Anônima?</li>
+                <li>Como Limpar o Histórico e Cookies</li>
+            </ol>
+            <li>Recursos Adicionais</li>
+        </section>
+        <section>
+            <h2>🧠 1. Por que a segurança na internet é importante?</h2>
+            <p>A internet oferece acesso a conhecimento, comunicação, serviços financeiros e entretenimento. Porém,
+                também é um ambiente onde circulam riscos como fraudes, vírus, roubo de dados e invasões de privacidade.
+            </p>
+            <h3>Exemplos reais:</h3>
+            <ul>
+                <li>Golpes de sites falsos que imitam bancos.</li>
+                <li>Perfis de redes sociais invadidos por falta de senha forte.</li>
+                <li>Vírus que roubam dados de cartão de crédito.</li>
+                <li>E-mails falsos com links perigosos (phishing).</li>
+            </ul>
+                    <h3>🔐 Segurança na internet é responsabilidade de todos os usuários.</h3>
+        </section>
+        <section>
+            <h2>🛡️ 2. Principais Riscos Online</h2>
+            <h3>⚠️ Phishing</h3>
+            <p>Técnica usada para enganar o usuário e obter dados sensíveis como senhas e cartões.</p>
+            <p><strong>📧 Exemplo:</strong> um e-mail dizendo “Sua conta foi bloqueada! Clique aqui para reativar”.</p>
+            <h3>🦠 Vírus e Malware</h3>
+            <p>Programas maliciosos que podem roubar informações ou danificar o sistema.</p>
+            <p><strong>💻 Exemplo:</strong> sites com downloads suspeitos ou arquivos anexos contaminados.</p>
+            <h3>👁️ Rastreio de Dados</h3>
+            <p>Sites que monitoram seu comportamento para fins comerciais ou mal-intencionados.</p>
+            <p><strong>📊 Exemplo:</strong> cookies que seguem sua navegação sem seu consentimento.</p>
+        </section>
+        <section>
+            <h2>3. Boas Práticas de Segurança na Navegação</h2>
+            <h3>🔒 3.1. Mantenha seu sistema atualizado</h3>
+            <ul>
+                <li>Instale atualizações do sistema operacional e navegador regularmente.</li>
+                <li>Atualizações corrigem falhas que hackers podem explorar.</li>
+            </ul>
+            <h3>🔑 3.2. Use senhas fortes e únicas</h3>
+            <ul>
+                <li>Combine letras maiúsculas, minúsculas, números e símbolos.</li>
+                <li>Evite senhas óbvias como “123456” ou “senha”.</li>
+                <li>Use um gerenciador de senhas para armazenar com segurança.</li>
+            </ul>
+            <h3>🕵️‍♀️ 3.3. Use a autenticação em dois fatores (2FA)</h3>
+            <ul>
+                <li>Um código extra (via SMS, e-mail ou app) além da senha.</li>
+                <li>Adiciona uma camada extra de proteção.</li>
+            </ul>
+            <h3>🌐 3.4. Verifique a URL e o cadeado de segurança</h3>
+            <ul>
+                <li>Sites seguros usam <strong>https://</strong> e mostram um <strong>cadeado:</strong> (🔒)</li>
+                <li>Fique atento a domínios falsos, como g00gle.com (com zeros).</li>
+            </ul>
+            <h2>🚫 3.5. Não clique em tudo</h2>
+            <ul>
+                <li>Desconfie de links em e-mails ou mensagens que prometem prêmios.</li>
+                <li>Passe o mouse sobre o link antes de clicar para ver o destino real.</li>
+            </ul>
+            <h2>👤 3.6. Cuide da sua privacidade</h2>
+            <ul>
+                <li>Evite compartilhar informações pessoais em comentários ou fóruns.</li>
+                <li>Revise as permissões de aplicativos e redes sociais.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>📶 4. Navegando com segurança em Wi-Fi público</h2>
+            <h3>Riscos:</h3>
+            <ul>
+                <li>Redes públicas não têm criptografia forte.</li>
+                <li>Hackers podem interceptar sua conexão (ataque "man-in-the-middle").</li>
+            </ul>
+            <h3>Dicas:</h3>
+            <ul>
+                <li>Não acesse contas bancárias ou faça compras em Wi-Fi público.</li>
+                <li>Use uma <strong>VPN (Rede Privada Virtual)</strong> para criptografar sua conexão.</li>
+                <li>Prefira a rede do seu próprio celular (dados móveis) para ações sensíveis.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>🔍 5. Identificando sites e mensagens suspeitas</h2>
+            <h3>Características de sites perigosos:</h3>
+            <ul>
+                <li>Erros ortográficos ou de layout.</li>
+                <li>Domínio estranho (ex: loja-falsa.net).</li>
+                <li>Falta de cadeado de segurança.</li>
+                <li>Solicitação de dados pessoais de forma incomum</li>
+            </ul>
+            <h3>E-mails falsos geralmente têm:</h3>
+            <ul>
+                <li>Tom urgente ("Último aviso!", "Sua conta será bloqueada").</li>
+                <li>Erros de gramática.</li>
+                <li>Remetente estranho (ex: banco123@protecao.net).</li>
+                <li>Links encurtados ou mascarados.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>🧰 6. Ferramentas que ajudam na segurança</h2>
+            <h3>Recomendadas:</h3>
+            <ul>
+                <li><strong>Antivírus confiável:</strong> Windows Defender, Avast, Kaspersky, etc.</li>
+                <li><strong>VPNs seguras:</strong> NordVPN, ProtonVPN, Surfshark.</li>
+                <li><strong>Gerenciador de senha:</strong> Bitwarden, 1Password, LastPass.</li>
+                <li><strong>Extensões para navegador:</strong> HTTPS Everywhere, uBlock Origin.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>🕶️ 7. O que é o Modo de Navegação Anônima?</h2>
+            <p>Modo que não salva histórico de navegação, cookies ou dados de formulários.</p>
+            <p><strong>Importante:</strong> Ele não esconde sua identidade da internet nem protege contra hackers. Serve apenas para não deixar rastros no dispositivo.</p>
+        </section>
+        <section>
+            <h2>🗂️ 8. Como limpar o histórico e cookies?</h2>
+            <p>Fazer isso regularmente:</p>
+            <ul>
+                <li>Remove rastros de navegação.</li>
+                <li>Libera espaço</li>
+                <li>Evita que terceiros vejam seu comporamento online.</li>
+            </ul>
+            <h3>Passos gerais:</h3>
+            <p><strong>Configurações → Privacidade → Limpar dados de navegação</strong></p>
+        </section>
+        <section>
+            <h2>📚 Recursos Adicionais</h2>
+            <ul>
+                <li><a href="https://cartilha.cert.br"><strong>Cartilha de Segurança para Internet (CERT.br)</strong></a></li>
+            
+            <li><a href="https://safety.google"><strong>Google Safety Center</strong></a></li>
+            <li><a href="https://www.kaspersky.com/resource-center"><strong>Kaspersky Academy </strong></a></li>
+            </ul>
+        </section>
+    </main>
+    <script src="Cursos.js"></script>
+</body>
+
+</html>

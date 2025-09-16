@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulado 1</title>
+  <link rel="stylesheet" href="Simuladoscss.css">
+  <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <div class="locBtnVoltar">
+    <a class="botao" onclick="voltar()">Voltar</a>
+    </div>
+    <div class="titulo">
+  <h1 id="titulo" data-mobile-text="Internet">Navegação na Internet</h1>
+    </div>
+    <div class="esquerda"></div> <!-- vazia -->
+</header>
+<main>  
+  <form id="simulado1" class="quizForm">
+   <div class="question">
+      <h3>1. Qual dos itens abaixo é um navegador de internet?</h3>
+      <label><input type="radio" name="q1" value="a"> a) Windows</label>
+      <label><input type="radio" name="q1" value="b"> b) Google</label>
+      <label><input type="radio" name="q1" value="c"> c) Chrome</label>
+      <label><input type="radio" name="q1" value="d"> d) Yahoo</label>
+    </div>
+
+    <div class="question">
+      <h3>2. O que é um link (ou hiperlink)?</h3>
+      <label><input type="radio" name="q2" value="a"> a) Um programa de edição de texto</label>
+      <label><input type="radio" name="q2" value="b"> b) Um atalho para abrir o Painel de Controle</label>
+      <label><input type="radio" name="q2" value="c"> c) Um endereço IP</label>
+      <label><input type="radio" name="q2" value="d"> d) Um atalho que leva a outra página ou parte de uma página na internet</label>
+    </div>
+
+    <div class="question">
+      <h3>3. Qual dessas práticas é recomendada para uma navegação segura?</h3>
+      <label><input type="radio" name="q3" value="a"> a) Clicar em todos os links recebidos por e-mail</label>
+      <label><input type="radio" name="q3"value="b"> b) Utilizar senhas fracas e repetidas</label>
+      <label><input type="radio" name="q3" value="c"> c) Manter o navegador e o antivírus atualizados</label>
+      <label><input type="radio" name="q3" value="d"> d) Desabilitar o firewall do computador</label>
+    </div>
+
+    <div class="question">
+      <h3>4. O que significa “URL”?</h3>
+      <label><input type="radio" name="q4" value="a"> a) Uniform Resource Locator</label>
+      <label><input type="radio" name="q4" value="b"> b) Utilidade de Registro de Link</label>
+      <label><input type="radio" name="q4" value="c"> c) Unidade de Rede Local</label>
+      <label><input type="radio" name="q4" value="d"> d) Usuário de Rede Livre</label>
+    </div>
+
+    <div class="question">
+      <h3>5. O que ocorre ao digitar “www.google.com” na barra de endereços do navegador?</h3>
+      <label><input type="radio" name="q5" value="a"> a) O computador desligará automaticamente</label>
+      <label><input type="radio" name="q5" value="b"> b) Será iniciado um download de arquivos ocultos</label>
+      <label><input type="radio" name="q5" value="c"> c) Você será redirecionado para o site de buscas do Google</label>
+      <label><input type="radio" name="q5" value="d"> d) Você será desconectado da internet</label>
+    </div>
+
+    <div class="question">
+      <h3>6. Qual é a principal função dos motores de busca (ex: Google, Bing)?</h3>
+      <label><input type="radio" name="q6" value="a"> a) Criar redes sociais</label>
+      <label><input type="radio" name="q6" value="b"> b) Proteger contra vírus</label>
+      <label><input type="radio" name="q6" value="c"> c) Permitir a edição de imagens online</label>
+      <label><input type="radio" name="q6" value="d"> d) Ajudar o usuário a encontrar informações na internet</label>
+    </div>
+
+    <div class="question">
+      <h3>7. O que é o histório de navegação de um navegador?</h3>
+      <label><input type="radio" name="q7" value="a"> a) Uma lista de arquivos que foram baixados automaticamente</label>
+      <label><input type="radio" name="q7" value="b"> b) Um recurso que armazena as páginas visitadas pelo usuário</label>
+      <label><input type="radio" name="q7" value="c"> c) Um registro das atividades feitas em redes sociais</label>
+      <label><input type="radio" name="q7" value="d"> d) Um antivírus embutido no navegador</label>
+    </div>
+
+    <div class="question">
+      <h3>8. O que significa o cadeado na barra de endereços de um site (🔒)?</h3>
+      <label><input type="radio" name="q8" value="a"> a) Que o site é criptografado e mais seguro</label>
+      <label><input type="radio" name="q8" value="b"> b) Que o site está bloqueado</label>
+      <label><input type="radio" name="q8" value="c"> c) Que o site está fora do ar</label>
+      <label><input type="radio" name="q8" value="d"> d) Que o site exige pagamento para acessar</label>
+    </div>
+
+    <div class="question">
+      <h3>9. Qual das alternativas abaixo é um exemplo de boa prática ao navegar em redes públicas de Wi-Fi?</h3>
+      <label><input type="radio" name="q9" value="a"> a) Fazer compras online</label>
+      <label><input type="radio" name="q9" value="b"> b) Acessar o internet banking</label>
+      <label><input type="radio" name="q9" value="c"> c) Utilizar uma VPN para proteção adicional</label>
+      <label><input type="radio" name="q9" value="d"> d) Compartilhar senhas por e-mail</label>
+    </div>
+
+    <div class="question">
+      <h3>10. Ao acessar um site desconhecido, o que você deve verificar primeiro?</h3>
+      <label><input type="radio" name="q10" value="a"> a) Se ele tem muitas imagens</label>
+      <label><input type="radio" name="q10" value="b"> b) Se possui certificados de segurança e URL confiável</label>
+      <label><input type="radio" name="q10" value="c"> c) Se o fundo é colorido</label>
+      <label><input type="radio" name="q10" value="d"> d) Se oferece promoções</label>
+    </div>
+
+    <button type="button" class="corrigir" onclick="corrigir('simulado1')">Ver Resultado</button>
+  </form>
+  <section class="result">
+    <div id="resultado"></div>
+    <button id="fazerDenovo" onclick="window.location.reload()">Fazer novamente?</button>
+    <button id="sair" onclick="window.location.href='index.html#Simulados'">Sair</button>
+  </section>
+  </main>
+
+<script src="Simulados.js"></script>
+</body>
+</html>

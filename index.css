@@ -1,0 +1,206 @@
+/* Resetando estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    background-image: url(./imgs/ed665581-10be-42c6-9e2f-2785b0ccd56a.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+#Introducao{
+    font-size: 1.2em;
+}
+#Introducao p{
+    text-align: left;
+
+}
+.tabs {
+    overflow: hidden;
+    background-color: #333;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+}
+
+.tablinks {
+    background-color: #333;
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    width: 33.3%;
+    cursor: pointer;
+    border: none;
+}
+
+.tablinks:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.tablinks.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    flex: 1;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Respostas de formulários */
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+    .Artigos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    .Artigo{
+        width: 90vh;
+        max-width: 320px;
+        height: auto;
+        padding: 20px;
+        margin: 10px 0px;
+        box-sizing: border-box;
+    }
+
+}
+.simulados{
+    height: 400px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    border: white 2px solid;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribui o conteúdo e empurra o botão para baixo */
+    padding: 20px;
+    box-sizing: border-box;
+    }
+    #Simulados h1, p{
+    text-align: center;
+
+    }
+    #Cursos h1 {
+    text-align: center;
+    }
+.botao{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.Simulado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+p {
+    margin: 10px 0px;
+    font-size: 1.2em;
+}
+
+
+.Artigo{
+    height: 500px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    border: white 2px solid;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribui conteúdo e empurra o botão para baixo por causa do flex-direction */
+    padding: 30px;
+    box-sizing: border-box;
+    }
+
+    .Artigos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}

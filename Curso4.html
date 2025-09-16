@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cursos.css">
+    <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
+    <title>Projeto de Alfabetização Digital</title>
+</head>
+
+<body>
+    <header>
+        <div class="locBtnVoltar">
+            <a class="botao" onclick="voltar()">Voltar</a>
+        </div>
+        <div class="titulo">
+            <h1>Organização e Armazenamento de Arquivos e Dados</h1>
+        </div>
+        <div class="esquerda"></div> <!-- vazia -->
+    </header>
+    <main>
+        <section id="sumario">
+            <h2>Sumário</h2>
+            <ol>
+                <li>O que são arquivos e pastas</li>
+                <li>Tipos comuns de arquivos e extensões</li>
+                <li>Como salvar e localizar arquivos</li>
+                <li>Como organizar pastas de forma prática</li>
+                <li>Armazenamento local x armazenamento em nuvem</li>
+                <li>Introdução ao Google Drive, OneDrive ou Dropbox</li>
+                <li>Importância do backup e como fazer</li>
+                <li>Dicas de boas práticas de organização digital</li>
+            </ol>
+        </section>
+        <section>
+            <h2>🗃️ 1. O que são arquivos e pastas?</h2>
+            <p><b> 1.1. Arquivo</b>: é qualquer documento, imagem, vídeo, música ou outro item salvo no computador ou celular.
+                <br>
+                Exemplos: fotos (.jpg), documentos de texto (.docx), planilhas (.xlsx), vídeos (.mp4).
+                <br>
+                <b> 1.2. Pasta</b>: é como uma "caixa" onde colocamos os arquivos para organizá-los por assunto ou categoria.
+                <br>
+                Exemplo: uma pasta chamada "Fotos de Viagem" pode conter várias fotos (.jpg) relacionadas a viagens.
+            </p>
+            <h3>Exemplo prático:</h3>
+            <img id= "pastawindows"src="./imgs/Teste2.jpg" alt="Imagem mostrando como criar uma pasta no Windows">
+        </section>
+        <section>
+            <h2>🗄️2. Tipos de arquivos e extensões</h2>
+            <table class="tabela-curso2">
+                <tr>
+                    <th>Tipo de arquivo</th>
+                    <th>Extensão</th>
+                    <th>Uso comum</th>
+                </tr>
+                <tr>
+                    <td>Documento de texto</td>
+                    <td>.docx, .txt</td>
+                    <td>textos, relatórios, cartas</td>
+                </tr>
+                <tr>
+                    <td>Planilha</td>
+                    <td> .xlsx</td>
+                    <td>Tabelas, cálculos, controle financeiro</td>
+                </tr>
+                <tr>
+                    <td>Imagem</td>
+                    <td> .jpg, .png</td>
+                    <td>Fotos, gráficos</td>
+                </tr>
+                <tr>
+                    <td>PDF</td>
+                    <td> .pdf</td>
+                    <td>Arquivos fixos para leitura (ex: contratos)</td>
+                </tr>
+                <tr>
+                    <td>apresentações</td>
+                    <td> .pptx</td>
+                    <td>Slides de aula ou reunião</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2> 💾 3. Como salvar e localizar arquivos</h2>
+            <h3> 3.1. Salvar:</h3>
+            <ul>
+                <li>Sempre escolha um nome claro e um local conhecido.</li>
+                <li>Evite nomes genéricos como "documento1".</li>
+            </ul>
+            <h3>🔍 3.2 Localizar:</h3>
+            <ul>
+                <li>Use a barra de pesquisa do seu sistema (Windows, Mac ou celular).</li>
+                <li>Pesquise pelo nome do arquivo ou tipo (.pdf, .jpg etc.).</li>
+            </ul>
+        </section>
+        <section>
+            <h2>📂 4. Como organizar pastas de forma prática</h2>
+            <ul>
+                <li>Crie pastas por <b>assunto</b> (ex: "Trabalho", "Estudos", "Contas").</li>
+                <li>Dentro de cada uma, use subpastas se necessário (ex: "Trabalho > Projetos 2025").</li>
+                <li>Use nomes simples e diretos.</li>
+                <li>Evite salvar tudo na área de trabalho ou na pasta "Downloads".</li>
+            </ul>
+            <h3>✅ Dica: </h3>
+            <p>Uma boa organização facilita muito encontrar o que você precisa rapidamente.</p>
+        </section>
+        <section>
+            <h2>💿 5. Armazenamento local x armazenamento em nuvem</h2>
+            <table class="tabela-curso2">
+            <tr>
+                <th>Tipo</th>
+                <th>Características</th>
+            </tr>
+            <tr>
+                <td><strong>Local</strong></td>
+                <td>Os arquivos ficam salvos diretamente no computador, celular ou pendrive</td>
+            </tr>
+            <tr>
+                <td><strong>Nuvem</strong></td>
+                <td>os arquivos ficam salvos na internet e podem ser acessados de qualquer dispositivo com internet</td>
+            </tr>
+        </table><br>
+        <p>☁️ Exemplos de nuvem: <strong>Google Drive, OneDrive, Dropbox</strong></p>
+        </section>
+        <section>
+            <h2>💻 6. Introdução ao uso de armazenamento em nuvem</h2>
+            <h3>Google Drive (exemplo mais comum e gratuito):</h3>
+            <ul>
+                <li><strong>Crie uma conta Google</strong> (caso não tenha).</li>
+                <li>Acesse pelo navegador: <a href="drive.google.com">drive.google.com</a></li>
+                <li>
+                    Você pode:
+                    <ul class="sublista">
+                        <li>Fazer upload de arquivos e pastas</li>
+                        <li>Criar arquivos online (Documentos, Planilhas, Apresentações)</li>
+                        <li>Compartilhar arquivos com outras pessoas</li>
+                        <li>Acessar de qualquer lugar</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>💾 7. Importância do backup e como fazer</h2>
+            <ul>
+                <li><strong>Backup</strong> significa fazer uma cópia de segurança dos seus dados importantes.</li>
+                <li>Pode ser feito:
+                <ul class="sublista">
+                    <li>Em um <strong>pendrive</strong></li>
+                    <li>Em um <strong>HD externo</strong></li>
+                    <li>Na <strong>nuvem</strong> (Google Drive, OneDrive)</li>
+                </ul>
+                <li>Ideal para evitar perda de dados em caso de problemas técnicos, roubo ou exclusão acidental</li>
+            </ul>
+            <p><strong>✅ Dica prática: </strong> Faça backups regulares de arquivos importantes (mensal ou semanalmente).</p>
+        </section>
+        <section>
+            <h2>👋🤓 8. Dicas de boas práticas de organização digital</h2>
+            <ul>
+                <li>Use nomes claros nos arquivos.</li>
+                <li>Organize por data ou assunto.</li>
+                <li>Limpe sua pasta "Downloads" frequentemente.</li>
+                <li>Faça backups regularmente.</li>
+                <li>Use a nuvem para ter acesso de qualquer lugar.</li>
+                <li>Evite deixar muitos arquivos na área de trabalho.</li>
+            </ul>
+                </section>
+        <section>
+            <h2>📚 Recursos Adicionais</h2>
+            <ul>
+                <li><a href="https://support.google.com/drive/answer/2424384?hl=pt-BR&co=GENIE.Platform%3DDesktop"><strong>Como usar o GoogleDrive</strong></a></li>
+            
+            <li><a href="https://safety.google"><strong>Google Safety Center</strong></a></li>
+            </ul>
+        </section>
+    </main>
+    <script src="Cursos.js"></script>
+</body>
+
+</html>
